@@ -1,0 +1,14 @@
+requires 'Plack',                                 '== 1.0037';
+requires 'Starlet',                               '== 0.26';
+#requires 'Server::Starter',                       '== 0.32';
+#requires 'Log::Minimal::Instance';
+#requires 'Cache::Memcached::Fast';
+#requires 'Path::Tiny', "== 0.076";
+#requires 'File::Spec', ">= 3.46";
+#requires 'IO::Socket::SSL';
+#requires 'DBI';
+#requires 'Furl';
+#requires 'JSON::XS';
+#requires 'JSON::WebToken';
+#requires 'File::Slurp';
+#requires 'DBD::mysql';
